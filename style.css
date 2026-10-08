@@ -1123,7 +1123,9 @@ body {
     align-items: center;
     justify-content: center;
 
-    background: #050505;
+    background-color: #000000;
+    
+
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1169,7 +1171,7 @@ body {
             rgba(0, 0, 0, 0.72),
             rgba(0, 0, 0, 0.82)
         ),
-        url("tune_inn_image.jpg");
+        url("event_image.webp");
 
     background-size: cover;
     background-position: center;
@@ -1213,6 +1215,7 @@ body {
     padding: 90px 7%;
 
     background: #0b0b0b;
+
 }
 
 .section-heading {
