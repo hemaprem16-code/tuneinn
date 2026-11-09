@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+ <style> 
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+      
+     header{
+    height: 8vh;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    padding-left: 20px;
+    
+}
+
+.left,.right{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+
+
+
+}
+
+a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.avatar{
+    width: 40px;
+    /* border: 2px solid green; */
+    /* border-radius: 25px; */
+    
+}
+.apps{
+    /* border: 1px solid blue; */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.image1{
+    width: 20px;
+
+}
+
+
+
+.apps:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* body section */
+.body{
+    height: 100vh;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+
+}
+h1{
+    font-size: 80px;
+   
+}
+.g,.g2{
+    color: blue;
+}
+.o,.e{
+    color: red;
+}
+.o2{
+    color: yellow;
+}
+.l{
+    color: green;
+}
+
+
+/* search box */
+
+.search{
+    border:1px solid gray;
+    width: 100%;
+    height: 8vh;
+    border-radius: 25px;
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+
+.symbol{
+     width: 35px; 
+     text-align: center;
+    
+    border-radius: 25px; 
+    
+}
+
+.symbol:hover{
+    border-radius: 25px;
+    background-color: rgb(227, 227, 225);
+    cursor: pointer;
+}
+
+.symbol h3{
+    font-size: 30px;
+    /* border: 1px solid; */
+    /* height: 10px !important; */
+    
+
+}
+
+
+.search input{
+    padding: 10px;
+    width: 60%;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+
+.search img{
+    width: 20px;
+    
+}
+.search img:hover{
+    cursor: pointer;
+}
+
+.search button{
+    border-radius: 25px;
+}
+
+.aimode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.aimode:hover{
+    background-color: lightblue;
+}
+
+
+
+/* language section */
+
+
+.google p{
+    font-size: 15px;
+}
+
+span a{
+    font-size: 13px;
+    color: blue;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+}
+
+button{
+    padding: 8px 15px ;
+    border: 1px solid  transparent;
+    /* border: none; */
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    
+}
+
+button:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+    
+}
+
+
+
+/* footer section */
+
+footer p{
+    margin-left: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+hr{
+    color: rgb(156, 154, 154);
+}
+
+
+footer{
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(233, 228, 228);
+}
+.footers{
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.footers a{
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+
+ </style>
+
+
+<body>
+  <header>
+    <div class="left">
+    <a href=" "> About</a>
+    <a href=" "> Store</a>
+    </div>
+   
+
+   <div class="right">
+
+    <a href=" "> Gmail</a>
+    <a href=" "> Images</a>
+    <a href=" " class= " apps"> </a>
+    <img src=" https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="Apps">
+</div>
+</header>
+<section class="body">
+   <div class=" Google">
+      <h1>
+         <span class="G">G</span>
+         <span class="o">o</span>
+         <span class="o">o</span>
+         <span class="g">g</span>
+         <span class="l">l</span>
+         <span class="e">e</span>
+
+      </h1>
+      <div class="search">
+      <div class=" symbol">
+         <h3>+</h3>
+      </div>
+      <input type="text">
+
+      <img src="https://cdn-icons-png.flaticon.com/512/0/437.png" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-KvV5_5pwZluAWiRqodsnklPpq1syNzDcmbPxTW1XJA&s=10"
+                    alt="">
+
+
+                <button class="aimode">
+                    <img src="https://ico.hugeicons.com/ai-search-02-stroke-standard-512.webp" alt="">
+                    AI Mode</button>
+
+   </div>
+      <div class="button">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+            <p>Google offered in: <span> <a href="">हिन्दी </a><a href="">বাংলা</a> <a href="">తెలుగు</a><a href="">தமிழ்</a> <a href="">ગુજરાતી</a> <a href="">ಕನ್ನಡ</a> <a href="">മലയാളം</a> <a href="">ਪੰਜਾਬੀ</a></span></p>
+       
+   </div> 
+</section>
+
+<footer>
+        <p>India</p>
+        <hr>
+        <div class="footers">
+            <div>
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+                <a href="">How Search works </a>
+            </div>
+            <div>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    
+
+
+</body>
+</html>

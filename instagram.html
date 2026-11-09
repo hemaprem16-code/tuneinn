@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    
+    
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* left section */
+
+main{
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+
+}
+.image-area{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: 0.7fr 3fr;
+    padding: 40px;
+
+    
+}
+
+.image{
+     /* border: 1px solid gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-area p{
+    text-align: center;
+    /* border: 1px solid orange; */
+    font-size: 30px;
+    width: 100%;
+    line-height: 50px;
+    font-weight:500;
+
+    
+    
+}
+.image img{
+    width: 60%;
+}
+
+.logo{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end  ;
+    border-radius: 30px;
+
+}
+.logo img{
+    width: 110px;
+    
+    
+}
+
+
+
+/* login section */
+
+.login-area{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+    border-left: 1px solid rgb(180, 178, 178);
+
+    
+}
+
+.login{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.login h4,input,button{
+    width: 100%;
+}
+input{
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(189, 187, 187);
+    transition: 0.3s;
+    outline: none;
+
+    
+}
+input:hover{
+    border: 1px solid rgb(31, 30, 30);
+    transform: scale(1);
+
+}
+
+button{
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #0064e0;
+    border: none;
+    cursor: pointer;
+}
+
+.loginbutton{
+    color: white;
+}
+.forgot{
+    background-color: white;
+}
+.facebook{
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.facebook img{
+    border-radius: 30px;
+    width: 20px !important;
+}
+.facebook:hover{
+    background-color: rgb(214, 212, 212);
+    transform: scale(1);
+}
+
+.createnew{
+    background-color: white;
+    color: #0064e0;
+    border: 1px solid #0064e0;
+    transition: 0.3s;
+}
+.createnew:hover{
+    background-color: #e8ecec;
+    
+}
+
+.meta img{
+    width: 70px;
+    
+}
+.meta{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+/* footer section */
+
+footer{
+    border-top: 1px solid rgb(167, 165, 165);
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    
+}
+
+a{
+    color: rgb(119, 118, 118);
+    text-decoration: none;
+    font-size: small;
+    transition: 0.4s;
+    margin-top: 8px;
+    
+}
+a:hover{
+    text-decoration: underline; 
+    transform: scale(1s);   
+    
+}
+
+
+</style>
+
+
+
+<body>
+    
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="image-area">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dw5eVx4Y3kjtV0Iz_GwtnH4rIXE8OxaXO2dIBICuIw&s=10"
+                    alt="">
+            </div>
+
+            <div class="image">
+                <p>See everyday moments from <br>your close friends.</p>
+                <img src="https://static.cdninstagram.com/rsrc.php/yJ/r/53X3pk-t2Gn.webp" alt="">
+            </div>
+
+        </div>
+
+
+
+        <div class="login-area">
+
+            <div class="login">
+                <h4> Log into Instagram</h4>
+                <input type="text" placeholder="Mobile number,username or email">
+                <input type="password" placeholder="Password">
+                <button class="loginbutton">Log in</button>
+                <button class="forgot">Forgot password?</button>
+                <div class="meta">
+                    <button class="facebook"> 
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVIVwGKJYmlqqE-4x9DBzeaS8GadorDMmimTlWOYXpZnQtfegJwXdraoQ&s=10" alt="">
+                        log in with Facebook</button>
+                    <button class="createnew">create new account</button>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <a href="">Meta</a>
+        <a href="">about</a>
+        <a href="">Blog</a>
+        <a href="">Jobs</a>
+        <a href="">Help</a>
+        <a href="">API</a>
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Locations</a>
+        <a href="">Popular</a>
+        <a href="">Instagram Lite</a>
+        <a href="">Meta AI</a>
+        <a href="">Threads</a>
+        <a href="">Contact Uploading & Non-Users</a>
+        <a href="">Meta Verified</a>
+        <a href="">Meta AI</a>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+</body>
+</html>
